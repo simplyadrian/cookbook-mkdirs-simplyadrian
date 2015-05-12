@@ -1,17 +1,17 @@
 #
-# Cookbook Name:: mkdirs-nativex
+# Cookbook Name:: mkdirs-simplyadrian
 # Recipe:: default
 #
-# Copyright 2014, NativeX
+# Copyright 2014, simplyadrian
 #
 # All rights reserved - Do Not Redistribute
 #
 
-node['mkdirs-nativex']['path'].each do |dir_cfg|
+node['mkdirs-simplyadrian']['path'].each do |dir_cfg|
   directory dir_cfg do
-    owner node['mkdirs-nativex']['owner']
-    group node['mkdirs-nativex']['group']
-    mode node['mkdirs-nativex']['mode']
+    owner node['mkdirs-simplyadrian']['owner']
+    group node['mkdirs-simplyadrian']['group']
+    mode node['mkdirs-simplyadrian']['mode']
     action :create
   end
 end

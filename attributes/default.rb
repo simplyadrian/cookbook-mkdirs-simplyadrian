@@ -1,8 +1,8 @@
-# mkdirs-nativex path to directory being created
-default['mkdirs-nativex']['path'] = ["/automnt"]
+# mkdirs-simplyadrian path to directory being created
+default['mkdirs-simplyadrian']['path'] = ["/automnt"]
 # user who owns the directory
-default['mkdirs-nativex']['owner'] = "root"
+default['mkdirs-simplyadrian']['owner'] = "root"
 # group that owns the directory
-default['mkdirs-nativex']['group'] = "root"
+default['mkdirs-simplyadrian']['group'] = "root"
 # permissions mode
-default['mkdirs-nativex']['mode'] = "755"
+default['mkdirs-simplyadrian']['mode'] = "755"

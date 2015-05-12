@@ -1,11 +1,11 @@
-mkdirs-nativex CHANGELOG
+mkdirs-simplyadrian CHANGELOG
 ================
 
-This file is used to list changes made in each version of the mkdirs-nativex cookbook.
+This file is used to list changes made in each version of the mkdirs-simplyadrian cookbook.
 
 0.1.0
 -----
-- [your_name] - Initial release of mkdirs-nativex
+- [your_name] - Initial release of mkdirs-simplyadrian
 
 - - -
 Check the [Markdown Syntax Guide](http://daringfireball.net/projects/markdown/syntax) for help with Markdown.
